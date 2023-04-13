@@ -1,2 +1,6 @@
 #!/bin/bash
-cd ..
+current_dir=$(pwd)
+cd -
+echo "Previous working directory: $current_dir"
+echo "Current working directory: $(pwd)"
+
